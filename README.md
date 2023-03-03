@@ -1,2 +1,5 @@
-# sreyasadiraju.github.io
-My personal website.
+# Sreyas Adiraju
+
+**Neuroscience/Applied Mathematics at Columbia University**
+
+This is my personal website.
