@@ -2,96 +2,105 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Sreyas Adiraju
+    - name: Email
+      value: sreyas.adiraju@columbia.edu
+    - name: Location
+      value: Columbia University, New York, NY
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.A. in Neuroscience and Behavior
+      institution: Columbia University, Columbia College, New York, NY
+      year: Expected May 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - GPA: 4.0599, Phi Beta Kappa
+        - Double major in Neuroscience and Applied Mathematics
+        - Relevant coursework:
+          - title: Technical Courses
+            contents:
+              - Neurobiology I & II, Neurogenetics, Cognitive Neuroscience
+              - Statistical Inference, Probability, Analysis I & II
+              - Dynamical Systems, Topology, Philosophy of Science
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021–Present
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - I.I. Rabi Scholar
+        - Dean’s List, Columbia College
+    - year: 2021
       items:
-        - Max Planck Medal
+        - National Merit Scholars Semifinalist
+        - Honorable Mention, Mathematical Contest in Modeling
+    - year: 2019–2021
+      items:
+        - Platinum Division, USA Computing Olympiad
+    - year: 2018–2021
+      items:
+        - Four-time Qualifier, American Invitational Mathematics Exam (AIME)
 
-- title: Academic Interests
-  type: nested_list
+- title: Experience
+  type: time_table
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Student Researcher
+      institution: Zuckerman Institute, Columbia University
+      year: Aug 2022 – Present
+      description:
+        - Working with Elias Issa on self-supervised visual representation learning in primates
+        - Developed latent-prediction models over egocentric/allocentric motion in PyTorch
+        - Built ImageNet-scale parametric dataset; designed marmoset visual stimuli
+        - Probed representational geometry of learned features
 
-- title: Other Interests
+    - title: Summer Research Student
+      institution: LMU Munich, Astrophysics, Cosmology, and Artificial Intelligence
+      year: May 2022 – Aug 2022
+      description:
+        - Worked with Daniel Grün on deep learning for the Lyman-alpha forest
+        - Designed 1D convolutional neural networks to infer physical parameters
+        - Modeled posterior distributions over temperature-density relations
+        - Trained models in Tensorflow/Keras with custom architectures
+
+    - title: Teaching Assistant
+      institution: Columbia University
+      year: Jan 2025 – Present
+      description:
+        - BIOL 3005: Neurobiology II – Led recitations on primary literature and organized reviews
+        - APMA 4101: Dynamical Systems – Held office hours, graded assignments, supported students
+
+- title: Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Nayak, P., Walther, M., Grün, D., & Adiraju, S. (2024). *LyαNNA: A deep learning field-level inference machine for the Lyman-α forest*. Astronomy & Astrophysics. [DOI](https://doi.org/10.1051/0004-6361/202348485)
+
+- title: Presentations
+  type: time_table
+  contents:
+    - title: Modeling Drug Sensitivity and Pharmacogenomic Interactions with GDSC2
+      institution: Senior Seminar, Columbia Applied Math
+      year: Nov 2024
+    - title: Towards a Theory of Phenomenal Transitions in Binocular Rivalry
+      institution: Consciousness and Attention, Columbia Psychology
+      year: May 2024
+    - title: Biologically Plausible Self-Supervised Learning with Augmented Prediction
+      institution: Columbia Science Scholars Reception
+      year: Apr 2024
+    - title: Exploring Augmented Prediction for Self-Supervised Models of Primate Visual Cortex
+      institution: Columbia Undergraduate Research Symposium
+      year: Oct 2023
+    - title: Deep Learning for the Lyman-Alpha Forest
+      institution: Theory Seminar, University Observatory Munich
+      year: Jun 2022
+
+- title: Technical Skills
+  type: list
+  contents:
+    - Python, PyTorch, Tensorflow/Keras
+    - Statistical and machine learning
+    - Scientific computing and distributed training
+    - Data analysis and visualization
+    - C++, Java, algorithmic problem-solving, mathematical modeling
